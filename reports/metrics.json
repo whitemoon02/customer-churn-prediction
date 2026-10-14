@@ -1,0 +1,24 @@
+{
+  "model": "Régression logistique",
+  "roc_auc": 0.8505,
+  "pr_auc": 0.6806,
+  "threshold": 0.42,
+  "business_gain_eur": 60544,
+  "gain_vs_target_all_eur": 33400,
+  "cv_scores": {
+    "Régression logistique": 0.8469,
+    "Random Forest": 0.8334,
+    "Gradient Boosting": 0.8291,
+    "Gradient Boosting tuné": 0.8435
+  },
+  "confusion_matrix": [
+    [
+      917,
+      483
+    ],
+    [
+      64,
+      536
+    ]
+  ]
+}
